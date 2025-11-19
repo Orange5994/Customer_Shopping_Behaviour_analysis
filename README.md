@@ -1,5 +1,13 @@
 # Customer Behavior Analysis
 
+### 🐍 Python | 🐘 PostgreSQL | 📊 Power BI
+
+<p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="60"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="60"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI" width="60"/>
+</p>
+
 **SQL • Python • Power BI**
 
 ---
@@ -12,7 +20,7 @@ A modular data analysis project that explores customer behaviour across transact
 
 ---
 
-## Tech stack
+## Tech stack ⚙️
 
 * **SQL**: ETL queries, staging, aggregation, cohort analysis.
 * **Python**: data cleaning, feature engineering, EDA, simple predictive models, notebooks (Jupyter / .py scripts).

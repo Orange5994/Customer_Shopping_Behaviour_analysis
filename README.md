@@ -33,8 +33,8 @@ A modular data analysis project that explores customer behaviour across transact
 1. Clone the repo:
 
 ```bash
-git clone [https://github.com/<your-org>/<repo-name>](https://github.com/Orange5994/Customer_Shopping_Behaviour_analysis).git
-cd <Customer_Shopping_Behaviour_analysis>
+git clone https://github.com/Orange5994/Customer_Shopping_Behaviour_analysis.git
+cd Customer_Shopping_Behaviour_analysis
 ```
 
 2. Create a Python virtual environment and install dependencies (example):
@@ -43,34 +43,12 @@ cd <Customer_Shopping_Behaviour_analysis>
 python -m venv venv
 source venv/bin/activate   # or `venv\Scripts\activate` on Windows
 pip install -r requirements.txt
+# Or install manually
+pip install numpy pandas
 ```
 
 3. Load sample data / connect to your database following `docs/CONNECTIONS.md`.
 4. Run the example notebook `notebooks/01-explore-customers.ipynb` or the SQL scripts in `sql/` to build the analytical tables.
-
----
-
-## Repo structure (high level)
-
-```
-/ (root)
-├─ sql/                # DDL, ETL, and analysis SQL scripts
-├─ notebooks/          # Jupyter notebooks for EDA, feature engineering, modeling
-├─ scripts/            # Reusable Python scripts (data_load.py, features.py)
-├─ powerbi/            # .pbix files and documentation for Power BI reports
-├─ data_sample/        # small, anonymized CSV samples for local dev
-├─ docs/               # Connection guides, data dictionary, runbook
-├─ results/            # exported figures, model outputs, dashboards snapshots
-└─ README.md
-```
-
----
-
-## Data & assumptions
-
-* Include a short data dictionary in `docs/data_dictionary.md` describing key tables (customers, transactions, products, events).
-* This project assumes access to a transactional dataset with at minimum: `customer_id`, `transaction_id`, `transaction_date`, `amount`, `product_id`.
-* All sample datasets included are anonymized and safe for public sharing.
 
 ---
 

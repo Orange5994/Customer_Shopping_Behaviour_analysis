@@ -42,16 +42,12 @@ cd Customer_Shopping_Behaviour_analysis
 ```bash
 python -m venv venv
 source venv/bin/activate   # or `venv\Scripts\activate` on Windows
-pip install -r requirements.txt
-# Or install manually
-pip install numpy pandas
+pip install numpy
+pip install pandas
 ```
 
-3. Load sample data / connect to your database following `docs/CONNECTIONS.md`.
-4. Run the example notebook `notebooks/01-explore-customers.ipynb` or the SQL scripts in `sql/` to build the analytical tables.
-
----
-
+3. Load sample data / connect to your database.
+   
 ## How to run the pieces
 
 ### SQL

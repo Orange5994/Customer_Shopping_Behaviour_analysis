@@ -94,7 +94,7 @@ MIT License — feel free to fork, improve, and use in your portfolio.
 
 ## 👨‍💻 About the Author
 
-This repository is managed by **Z**, passionate about Data Analytics and end‑to‑end business intelligence workflows.
+This repository is managed by **Sahilkrsingh5994@gmail.com**, a passionate individual about Data Analytics and end-to-end business intelligence workflows.
 
 If you'd like to collaborate or need help enhancing this project, feel free to connect!
 

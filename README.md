@@ -90,14 +90,12 @@ See `CONTRIBUTING.md` for more details.
 
 ## License
 
-This repository is released under the MIT License. See `LICENSE`.
+This repository is released under the MIT License. See `MIT LICENSE`.
 
 ---
 
 ## Contact
 
-Project owner: Your Name — replace with your email or GitHub handle.
+Project owner: Sahil Kumar(Orange5994)
 
 ---
-
-**Want it trimmed or expanded?** I can make a shorter landing page or add sections (badges, screenshot placeholders, sample queries) — tell me which and I’ll update the README.

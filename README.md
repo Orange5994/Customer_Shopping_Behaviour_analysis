@@ -28,74 +28,78 @@ A modular data analysis project that explores customer behaviour across transact
 
 ---
 
-## Quick start
 
-1. Clone the repo:
+## 📌 Project Overview
+
+This project transforms raw customer transaction data into meaningful business insights through a structured workflow:
+
+## 🔧 Project Workflow
+
+### 🛠️ How to Use This Project
+
+#### **1️⃣ Clone the Repository**
 
 ```bash
 git clone https://github.com/Orange5994/Customer_Shopping_Behaviour_analysis.git
 cd Customer_Shopping_Behaviour_analysis
 ```
 
-2. Create a Python virtual environment and install dependencies (example):
+#### **2️⃣ Open the Jupyter Notebook**
 
-```bash
-python -m venv venv
-source venv/bin/activate   # or `venv\Scripts\activate` on Windows
-pip install numpy
-pip install pandas
-```
+`Customer_Shopping_Behavior_Analysis.ipynb` includes:
 
-3. Load sample data / connect to your database.
-   
-## How to run the pieces
+* Data import
+* Data exploration
+* Data cleaning
+* SQL database connection
+* Loading cleaned data into PostgreSQL/MySQL/MS SQL
 
-### SQL
+#### **3️⃣ Create SQL Database**
 
-* `sql/01_staging.sql` — creates staging tables.
-* `sql/02_aggregations.sql` — builds aggregated customer-level tables used by notebooks and Power BI.
+* Create a new database
+* Run Python code to insert all cleaned data into SQL tables
 
-Run via your SQL client or command line (psql / sqlcmd) per `docs/CONNECTIONS.md`.
+#### **4️⃣ Use SQL for Business Insights**
 
-### Python
+Open `customer_behavior_sql_queries.sql` to run queries answering questions like:
 
-* Notebooks are ordered numerically (01, 02, ...).
-* `notebooks/01-explore-customers.ipynb` — exploratory data analysis with visualizations and summary statistics.
-* `scripts/data_pipeline.py` — example script to extract from DB and save cleaned CSVs.
+* Who are our most valuable customers?
+* Which products drive the most revenue?
+* What factors influence repeat purchases?
+* What are customer churn indicators?
 
-### Power BI
+#### **5️⃣ Build the Power BI Dashboard**
 
-* Power BI Desktop file(s) live in `powerbi/`. See `powerbi/README.md` for instructions to point visuals at local CSVs or direct DB.
+* Open `customer_behavior_dashboard.pbix`
+* Connect it to your SQL database or exported CSVs
+* Explore interactive visuals such as:
 
----
+  * Revenue trends
+  * Customer segmentation
+  * Product performance
+  * RFM scoring
 
-## Key deliverables / example analyses
+#### **6️⃣ Create the Final Project Deliverables**
 
-* RFM segmentation and segment-level revenue trends.
-* Churn & retention curves (cohort analysis).
-* Product funnels and conversion rates across customer journeys.
-* Top drivers of customer spending (feature importance from simple models).
-
----
-
-## Contributing
-
-1. Fork the repo and open a feature branch.
-2. Add tests or a notebook demonstrating your change when appropriate.
-3. Open a pull request describing the change and linking any associated issue.
-
-See `CONTRIBUTING.md` for more details.
+* Prepare a **project report** summarizing key insights
+* Build a **presentation deck** for business stakeholders
 
 ---
 
-## License
+## 📜 License
 
-This repository is released under the MIT License. See `MIT LICENSE`.
+MIT License — feel free to fork, improve, and use in your portfolio.
 
 ---
 
-## Contact
+## 👨‍💻 About the Author
 
-Project owner: Sahil Kumar(Orange5994)
+This repository is managed by **Z**, passionate about Data Analytics and end‑to‑end business intelligence workflows.
+
+If you'd like to collaborate or need help enhancing this project, feel free to connect!
+
+---
+
+⭐ **If you found this helpful, consider starring the repository!** 🚀
 
 ---

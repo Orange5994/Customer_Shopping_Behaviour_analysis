@@ -33,8 +33,8 @@ A modular data analysis project that explores customer behaviour across transact
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/<your-org>/<repo-name>.git
-cd <repo-name>
+git clone [https://github.com/<your-org>/<repo-name>](https://github.com/Orange5994/Customer_Shopping_Behaviour_analysis).git
+cd <Customer_Shopping_Behaviour_analysis>
 ```
 
 2. Create a Python virtual environment and install dependencies (example):
